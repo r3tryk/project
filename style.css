@@ -1,0 +1,242 @@
+body {
+  width: 1440px;
+  align-items: center;
+  margin: 0 auto;
+}
+.container { 
+  display: grid;
+  grid-template-rows: 800px 1388px 2144px;
+}
+
+.first-part {
+  padding: 0;
+  margin: 0;
+  background-image: url("images/mainpicture.png");
+  background-size: 100% 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-bar {
+  width: 1440px;
+  height: 119px;
+  display: grid;
+  grid-template-columns: 239px 770px 400px;
+  margin-top: 37px;
+  align-items: center;
+}
+
+.logo {
+  width: 67px;
+  margin-left: 140px;
+  margin-right: 32px;
+}
+
+.promo {
+  width: 125px;
+  margin-left: 0px;
+  font-family: 'Philosopher';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+nav {
+  margin-left: 0;
+}
+
+ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin-left: 20px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.title {
+  width: 661px;
+  height: 161px;
+  color: white;
+  font-size: 144px;
+  text-align: center;
+  margin: 250px auto;
+}
+
+.second-part {
+  background-image: url("images/secondpicture.png");
+  background-size: 100% 100%;
+  display: grid;
+  grid-template-rows: 1fr 3fr 2fr;
+}
+
+.choise {
+  width: 736px;
+  height: 40px;
+  margin-top: 102.5px;
+  margin-left: 172.11px;
+  font-family: 'Philosopher';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40.32px;
+}
+
+.article {
+  width: 1440px;
+  height: 700px;
+  margin-top: 2px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.article-block {
+  width: 470px;
+  height: 610px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.atricle-text {
+  width: 300px;
+  margin: 0 auto;
+  line-height: 180%;
+  align-items: start;
+}
+
+.more {
+  width: 307px;
+  height: 50px;
+  border: solid 4px #9B766E;
+  border-radius: 30px;
+  text-align: center;
+  margin-top: 65px;
+  margin-left: 80px;
+  font-family: 'Philosopher';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 180%;
+}
+
+.people {
+  width: 1356.73px;
+  height: 341px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: 1px solid #042101;
+}
+
+.people-card {
+  height: 341px;
+}
+
+.gid-name {
+  width: 116px;
+  height: 20px;
+  margin-left: 55px;
+  font-family: 'Philosopher';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  float: right;
+  margin-right: 120px;
+  margin-top: 50px;
+}
+
+.people-words {
+  width: 370px;
+  height: 25px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  padding: 0;
+  margin-top: 50px;
+}
+
+.confirm {
+  width: 307px;
+  height: 50px;
+  border: 4px solid #9B766E;
+  border-radius: 30px;
+  font-family: 'Philosopher';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 180%;
+}
+
+.third-part {
+  width: 1440px;
+  background-image: url("images/thirdpicture.png");
+  background-size: 100% 100%;
+}
+
+.third-title {
+  height: 216px;
+  font-family: 'Philosopher';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 150px;
+  line-height: 108px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 75px auto;
+}
+
+.place {
+  height: 19px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 160%;
+  text-align: center;
+  color: #FFFEFE;
+}
+
+.register {
+  width: 307px;
+  height: 50px;
+  border-radius: 30px;
+  border: 4px solid #9B766E;
+  margin-left: 552px;
+  margin-top: 29px;
+  font-family: 'Philosopher';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 180%;
+  color: #FCF3F3;
+  background-color: rgba(28,28,28,0)
+}
+
+.date {
+  display: grid;
+  grid-template-rows: repeat(7, 1fr);
+}
+
+.big-date {
+  width: 107px;
+height: 154px;
+
+font-family: 'Philosopher';
+font-style: normal;
+font-weight: 400;
+font-size: 96px;
+line-height: 160%;
+text-transform: capitalize;
+color: #FFFEFE;
+margin-left: 650px;
+}
