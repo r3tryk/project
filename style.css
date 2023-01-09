@@ -132,6 +132,7 @@ ul li {
   height: 341px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto;
   border: 1px solid #042101;
 }
 
